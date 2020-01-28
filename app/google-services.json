@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "932370732529",
+    "firebase_url": "https://albumadmin-a25cb.firebaseio.com",
+    "project_id": "albumadmin-a25cb",
+    "storage_bucket": "albumadmin-a25cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932370732529:android:5f51336ba1c6705ab8a050",
+        "android_client_info": {
+          "package_name": "com.example.album_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "932370732529-092uqd32mk5qg8o9ga5gibg9k145eune.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.album_admin",
+            "certificate_hash": "7a87880543c71653c46d2a115ea8903500548159"
+          }
+        },
+        {
+          "client_id": "932370732529-1t5880ov16gq6bn0ea9vet18s02336ag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDe1_pigsQqHJWBmranAbeITtCH86wizQM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "932370732529-1t5880ov16gq6bn0ea9vet18s02336ag.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

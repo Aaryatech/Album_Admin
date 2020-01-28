@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.EmployeeSettingFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvEmp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:padding="8dp"
+        android:layout_marginTop="4dp"
+        android:text="Employee"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="@font/sf_ui_bold"
+        android:textSize="18sp"
+        android:orientation="horizontal"></TextView>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewEmp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        />
+
+    <TextView
+        android:id="@+id/tvSup"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Superwiser"
+        android:textSize="18sp"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="@font/sf_ui_bold"
+        android:orientation="horizontal"></TextView>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewSup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        />
+
+    <TextView
+        android:id="@+id/tvAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Admin"
+        android:textSize="18sp"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="@font/sf_ui_bold"
+        android:orientation="horizontal"></TextView>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        />
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_background"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/sf_ui_bold"
+        android:text="Submit"
+        android:textColor="@color/colorWhite" />
+
+</RelativeLayout>
